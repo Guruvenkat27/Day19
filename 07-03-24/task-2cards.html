@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --x: white; 
+   
+}
+body{
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, .1),rgba(0, 0, 0, .1)),url("./pexels-tetyana-kovyrina-937980.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+}
+section{
+    border: 2px solid transparent;
+    height: 89vh;
+    width: 100%;
+    display: flex;
+  gap: 30px;
+    flex-direction: column;
+   
+    
+}
+.b1{
+    border: 2px solid transparent;
+    height: 48%;
+    display: flex;
+    gap: 160px;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+.cards{
+    border: 2px solid transparent;
+    width: 18%;
+    cursor: pointer;
+    height: 99%;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px ;
+    background-color: rgba(3, 3, 3, 0.345);
+  backdrop-filter: blur(30px);
+}
+.cards:hover{
+    box-shadow: 0 0 32px aqua;
+    
+    
+}
+
+.cards button{
+    border: none;
+    border: 2px solid transparent;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    width: 8%;
+    position: relative;
+    left: 11px;
+    top: 9px;
+    cursor: pointer;
+}
+.cards:hover button{
+    background-color: aqua;
+    box-shadow: 0 0 15px aqua;
+}
+.data{
+    border: 2px solid transparent;
+    position: relative;
+    top: 20px;
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.c1{
+    border: 2px solid transparent;
+
+}
+label{
+    font-size: 23px;
+    margin-left: 10px;
+    color: var(--x);
+}
+span{
+   
+    font-size: 20px;
+    margin-left: 30px;
+    color: var(--x);
+}
+.address{
+    border: 2px solid transparent;
+    position: relative;
+    top: 24px;
+    height: 37%;
+}
+h2{
+    font-weight: 100;
+    margin-left: 5px;
+    color: var(--x);
+ 
+}
+.loc{
+    border: 2px solid transparent;
+    display: flex;
+   
+    height:16%;
+    margin-top: 5px;
+
+}
+.address label{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.next{
+    border: 2px solid transparent;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next button{
+    border:none;
+    border: 2px solid transparent;
+    width: 8%;
+    height: 4vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.next button a{
+    font-size: 19px;
+    text-decoration: none;
+}
+.next button:hover{
+    background-color: gray;
+    box-shadow: 0 0 10px gray;
+   
+}
+.next button:hover a{
+    color: aliceblue;
+    font-weight: 600;
+}
+    </style>
+</head>
+<body>
+    <section>
+<div class="b1">
+    <div class="cards">
+        <button>1</button> 
+       <div class="data">
+<div class="c1"><label>Email:</label><span>john@gmail.com</span></div>
+<div class="c1"><label>Username:</label><span>johnd</span></div>
+<div class="c1"><label>Password:</label><span>m38rmF$</span></div>
+<div class="c1"><label>Firstname:</label><span>john</span></div>
+<div class="c1"><label>Lastname:</label><span>doe</span></div>
+       </div>
+       <div class="address">
+        <h2><u>Address</u>:</h2>
+        <div class="loc"><label for="">City:</label><span>kilcoole</span></div>
+        <div class="loc"><label for="">Street:</label><span>new road</span></div>
+        <div class="loc"><label for="">Number:</label><span>7682</span></div>
+        <div class="loc"><label for="">Zipcode:</label><span>12926-3874</span></div>
+
+       </div>
+        </div>
+      
+<div class="cards">
+    <button>2</button> 
+   <div class="data">
+    <div class="c1"><label>Email:</label><span>morrison@gmail.com</span></div>
+    <div class="c1"><label>Username:</label><span>mor_2314</span></div>
+    <div class="c1"><label>Password:</label><span>83r5^_</span></div>
+    <div class="c1"><label>Firstname:</label><span>david</span></div>
+    <div class="c1"><label>Lastname:</label><span>morrison</span></div>
+   </div>
+   <div class="address">
+    <h2><u>Address</u>:</h2>
+    
+    <div class="loc"><label for="">City:</label><span>kilcoole</span></div>
+    <div class="loc"><label for="">Street:</label><span>Lovers Ln</span></div>
+    <div class="loc"><label for="">Number:</label><span> 7267</span></div>
+    <div class="loc"><label for="">Zipcode:</label><span>12926-3874</span></div>
+   </div>
+  </div>
+<div class="cards">
+    <button>3</button> 
+  <div class="data">
+    <div class="c1"><label>Email:</label><span>kevin@gmail.com</span></div>
+    <div class="c1"><label>Username:</label><span>kevinryan</span></div>
+    <div class="c1"><label>Password:</label><span>kev02937@</span></div>
+    <div class="c1"><label>Firstname:</label><span>kevin</span></div>
+    <div class="c1"><label>Lastname:</label><span>ryan</span></div>
+  
+</div>
+<div class="address">
+    <h2><u>Address</u>:</h2>
+    
+    <div class="loc"><label for="">City:</label><span>Cullman</span></div>
+    <div class="loc"><label for="">Street:</label><span>Frances Ct</span></div>
+    <div class="loc"><label for="">Number:</label><span> 86</span></div>
+    <div class="loc"><label for="">Zipcode:</label><span>29567-1452</span></div>
+</div></div>
+  </div>
+<div class="b1">
+    <div class="cards">
+        <button>4</button> 
+        <div class="data">
+            <div class="c1"><label>Email:</label><span>don@gmail.com</span></div>
+            <div class="c1"><label>Username:</label><span>donero</span></div>
+            <div class="c1"><label>Password:</label><span>ewedon</span></div>
+            <div class="c1"><label>Firstname:</label><span>don</span></div>
+            <div class="c1"><label>Lastname:</label><span>romer</span></div>
+      </div>
+  
+  <div class="address">
+    <h2><u>Address</u>:</h2>
+    <div class="loc"><label for="">City:</label><span>San Antonio</span></div>
+    <div class="loc"><label for="">Street:</label><span>Hunters Creek Dr</span></div>
+    <div class="loc"><label for="">Number:</label><span>6454</span></div>
+    <div class="loc"><label for="">Zipcode:</label><span>98234-1734</span></div>
+
+  </div>  </div>
+<div class="cards">
+    <button>5</button> 
+   <div class="data">
+    <div class="c1"><label>Email:</label><span>derek@gmail.com</span></div>
+    <div class="c1"><label>Username:</label><span>derek</span></div>
+    <div class="c1"><label>Password:</label><span>jklg*_56</span></div>
+    <div class="c1"><label>Firstname:</label><span>derek</span></div>
+    <div class="c1"><label>Lastname:</label><span>powell</span></div>
+   </div>
+   <div class="address">
+    <h2><u>Address</u>:</h2>
+    <div class="loc"><label for="">City:</label><span>san Antonio</span></div>
+    <div class="loc"><label for="">Street:</label><span>adams St</span></div>
+    <div class="loc"><label for="">Number:</label><span> 245</span></div>
+    <div class="loc"><label for="">Zipcode:</label><span>80796-1234</span></div>
+
+   </div>
+  
+</div>
+</div>
+    </section>
+    <div class="next">
+        <button><a href="./cards2.html">next</a></button>
+    </div>
+</body>
+</html>
